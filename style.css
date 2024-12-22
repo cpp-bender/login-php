@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1d2630;
+}
+
+input{
+    max-width: 25rem;
+    min-width: 25rem;
+}
