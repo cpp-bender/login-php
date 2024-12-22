@@ -19,7 +19,7 @@
         $result = $conn->query($query);
 
         if($result->num_rows == 1){
-            header("Location: success.html");
+            header("Location: ./page/index.html");
         }
         else{
             header("Location: fail.html");
